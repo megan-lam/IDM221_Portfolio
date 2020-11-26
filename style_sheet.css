@@ -1,0 +1,31 @@
+/*fonts*/
+@font-face{
+    font-family: 'brandon_grotesque';
+    src: url('../IDM221/fonts/brandon_woff2/brandon-grotesque-regular-italic-58a8a456c4724-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face{
+    font-family: 'brandon_grotesque';
+    src: url('../IDM221/fonts/brandon_woff2/brandon-grotesque-medium-italic-58a8a3c40866a-webfont.woff2') format('woff2');
+    font-weight: medium;
+    font-style: italic;
+}
+@font-face{
+    font-family: 'brandon_grotesque';
+    src: url('../IDM221/fonts/brandon_woff2/brandon-grotesque-bold-italic-58a8a48221563-webfont.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face{
+    font-family: 'ff-tisa';
+    src: url('../IDM221/fonts/ff-tisa-web-pro-webfont.woff2') format('woff2');
+    font-weight: medium;
+    font-style: italic;
+}
+/*font size and positioning*/
+body{
+    font-family: 'brandon-grotesque',sans-serif;
+    font-size: 1rem
+    color: #26303b
+}
