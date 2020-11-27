@@ -1,0 +1,99 @@
+/*fonts*/
+@font-face{
+    font-family: 'nunitosans';
+    src: url(../fonts/nunitosans/nunitosans-regular-webfont.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'nunitosans';
+    src: url(../fonts/nunitosans/nunitosans-italic-webfont.woff2) format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face{
+    font-family: 'nunitosans';
+    src: url(../fonts/nunitosans/nunitosans-black-webfont.woff2) format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'nunitosans';
+    src: url(../fonts/nunitosans/nunitosans-blackitalic-webfont.woff2) format('woff2');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face{
+    font-family: 'lato';
+    src: url(../fonts/lato/lato-regular-webfont.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'lato';
+    src: url(../fonts/lato/lato-italic-webfont.woff2) format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+body{
+    background-color: #eeede8;
+}
+h1,h2{
+    color: #26303b;
+    font-family: 'nunitosans', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.intro_text{
+    font-size: 1.5rem;
+    margin: 1.5rem;
+}
+h3{
+    font-family: 'lato', Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul.navbar, li {
+    color: #26303b;
+    display: inline;
+    font-family: 'nunitosans';
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-style: italic;
+    list-style: none;
+    margin: .5rem;
+    position: relative;
+    bottom: 3rem;
+    float: right;
+    right: 2%;
+}
+.heading{
+    background-color: #021a37;
+    height: 130px
+}
+.logo{
+    height: 85px;
+    padding: 1.5rem;
+    width: 85px;
+}
+div.nav{
+    text-transform: uppercase;
+}
+a.resume:link {color: #eeede8;}
+a.resume:visited {color: #eeede8;}
+a.resume:hover {color: #94a2a6;}
+
+a.portfolio:link {color: #eeede8;}
+a.portfolio:visited {color: #eeede8;}
+a.portfolio:hover {color: #94a2a6;}
+
+a.about_me:link {color: #eeede8;}
+a.about_me:visited {color: #eeede8;}
+a.about_me:hover {color: #94a2a6;}
+
+a.additional_works:link {color: #eeede8;}
+a.additional_works:visited {color: #eeede8;}
+a.additional_works:hover {color: #94a2a6;}
