@@ -56,7 +56,7 @@ body{
 a{
     text-decoration: none;
 }
-ul.navbar, li {
+ul.navbar, li.nav {
     color: #26303b;
     display: inline;
     font-family: 'nunitosans';
@@ -82,6 +82,50 @@ ul.navbar, li {
 div.nav{
     text-transform: uppercase;
 }
+/*resume*/
+h1.name{
+    font-family: 'nunitosans';
+    font-weight: bold;
+    font-size: 2rem;
+    font-style: italic;
+    padding-bottom: 0;
+    padding-left: 3rem;
+    text-transform: uppercase;
+}
+h2.titles{
+    font-family: 'nunitosans';
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-style: italic;
+    padding-bottom: 0;
+    padding-left: 3rem;
+}
+p.description{
+    color: #021a37;
+    font-family: 'lato', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding-left: 3rem;
+}
+ul.description, li{
+    font-family: 'lato', Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+h2.download{
+    float: left;
+    font-family: 'nunitosans';
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-right: 1rem;
+}
+.downloadsvg{
+    display: inline;
+    height: 25px;
+    margin-top: 1.6rem;
+    width: 25px;
+}
+
+
 a.resume:link {color: #eeede8;}
 a.resume:visited {color: #eeede8;}
 a.resume:hover {color: #94a2a6;}
