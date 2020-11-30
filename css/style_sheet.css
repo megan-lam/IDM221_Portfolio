@@ -35,6 +35,19 @@
     font-weight: normal;
     font-style: italic;
 }
+@font-face{
+    font-family: 'lato';
+    src: url(../fonts/lato/lato-bold-webfont.woff2) format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'lato';
+    src: url(../fonts/lato/lato-bolditalic-webfont.woff2) format('woff2');
+    font-weight: bold;
+    font-style: italic;
+}
+/*home*/
 body{
     background-color: #eeede8;
 }
@@ -66,18 +79,20 @@ ul.navbar, li.nav {
     list-style: none;
     margin: .5rem;
     position: relative;
-    bottom: 3rem;
+    bottom: 2.7rem;
     float: right;
     right: 2%;
 }
 .heading{
     background-color: #021a37;
-    height: 130px
+    height: 90px;
 }
 .logo{
-    height: 85px;
-    padding: 1.5rem;
-    width: 85px;
+    bottom: .5rem;
+    height: 50px;
+    padding: 1.6rem;
+    position: relative;
+    width: 50px;
 }
 div.nav{
     text-transform: uppercase;
@@ -100,6 +115,22 @@ h2.titles{
     padding-bottom: 0;
     padding-left: 3rem;
 }
+h2.download{
+    float: left;
+    font-family: 'nunitosans';
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-style: italic;
+    padding-bottom: 0;
+    padding-left: 3rem;
+    margin-right: 1rem;
+}
+.downloadsvg{
+    display: inline;
+    height: 25px;
+    width: 25px;
+    margin-top: 1.6rem;
+}
 p.description{
     color: #021a37;
     font-family: 'lato', Arial, Helvetica, sans-serif;
@@ -109,20 +140,28 @@ p.description{
 ul.description, li{
     font-family: 'lato', Arial, Helvetica, sans-serif;
     list-style: none;
+    padding-left: 1.5rem;
 }
-h2.download{
-    float: left;
-    font-family: 'nunitosans';
-    font-weight: bold;
-    font-size: 1.5rem;
+h3.subtitle, h3.course, h3.position{
+    font-family: 'lato', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
     font-style: italic;
-    margin-right: 1rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
-.downloadsvg{
-    display: inline;
-    height: 25px;
-    margin-top: 1.6rem;
-    width: 25px;
+ul.work, li.info{
+    font-family: 'lato', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 1.5rem;
+}
+div.res_content{
+    margin-left: 2rem;
+    margin-top: 4rem;
+    margin-right: 2rem;
 }
 
 
