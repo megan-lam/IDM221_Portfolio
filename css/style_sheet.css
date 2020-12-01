@@ -56,9 +56,15 @@ h1,h2{
     font-family: 'nunitosans', Arial, Helvetica, sans-serif;
     font-weight: normal;
 }
-.intro_text{
-    font-size: 1.5rem;
+h1.intro_text{
+    color: #eeede8;
+    font-family: 'nunitosans';
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
     margin: 1.5rem;
+    float: left;
+    padding: 8rem 4rem;
 }
 h3{
     font-family: 'lato', Arial, Helvetica, sans-serif;
@@ -74,7 +80,7 @@ ul.navbar, li.nav {
     display: inline;
     font-family: 'nunitosans';
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-style: italic;
     list-style: none;
     margin: .5rem;
@@ -84,7 +90,7 @@ ul.navbar, li.nav {
     right: 2%;
 }
 .heading{
-    background-color: #021a37;
+    background-color: #0c0a2f;
     height: 90px;
 }
 .logo{
@@ -96,6 +102,14 @@ ul.navbar, li.nav {
 }
 div.nav{
     text-transform: uppercase;
+}
+body.home{
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    height: auto;
+    object-fit: fill;
+    width: 100%;
+    
 }
 /*resume*/
 h1.name{
@@ -167,16 +181,16 @@ div.res_content{
 
 a.resume:link {color: #eeede8;}
 a.resume:visited {color: #eeede8;}
-a.resume:hover {color: #94a2a6;}
+a.resume:hover {color: #e4ffa7;}
 
 a.portfolio:link {color: #eeede8;}
 a.portfolio:visited {color: #eeede8;}
-a.portfolio:hover {color: #94a2a6;}
+a.portfolio:hover {color: #e4ffa7;}
 
 a.about_me:link {color: #eeede8;}
 a.about_me:visited {color: #eeede8;}
-a.about_me:hover {color: #94a2a6;}
+a.about_me:hover {color: #e4ffa7;}
 
 a.additional_works:link {color: #eeede8;}
 a.additional_works:visited {color: #eeede8;}
-a.additional_works:hover {color: #94a2a6;}
+a.additional_works:hover {color: #e4ffa7;}
