@@ -47,9 +47,10 @@
     font-weight: bold;
     font-style: italic;
 }
-/*home*/
+/*HOME*/
 body{
     background-color: white;
+    padding-bottom: 4rem;
 }
 h1,h2{
     color: #0c0a2f;
@@ -66,6 +67,16 @@ h1.intro_text{
     margin-right: auto;
     float: left;
     padding: 4rem 2rem;
+}
+.view{
+    color: #ddff9c;
+    font-family: 'nunitosans';
+    font-style: italic;
+    font-size: 1.3rem;
+    margin: 0 auto;
+    float: left;
+    padding-left: 2rem;
+    padding-bottom: 19rem;
 }
 h3{
     font-family: 'lato', Arial, Helvetica, sans-serif;
@@ -133,25 +144,6 @@ h2.titles{
     text-transform: uppercase;
     padding: 0 3rem;
 }
-h2.download{
-    color: #0c0a2f;
-    float: left;
-    font-family: 'nunitosans';
-    font-weight: bold;
-    font-size: 1.2rem;
-    font-style: italic;
-    text-transform: uppercase;
-    padding-left: 3rem;
-    padding-right: 1rem;
-}
-.downloadsvg{
-    display: inline-block;
-    height: 25px;
-    width: 25px;
-    margin-top: 1.1em;
-    margin-left: 0;
-    padding-right: 3rem;
-}
 p.description{
     color: #021a37;
     font-family: 'lato', Arial, Helvetica, sans-serif;
@@ -189,38 +181,48 @@ ul.work, li.info{
     margin-right: auto;
     padding-right: 1.5rem; 
 }
-/*PORTFOLIO*/
+/*WORK*/
 .sl_wirefranes{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-h1.work_heading, h1.sl_heading{
+h1.work_heading{
     display: inline;
-    font-family: 'nunitosans';
+    font-family: 'nunitosans', Arial, Helvetica, sans-serif;
     font-size: 2rem;
     font-style: italic;
     font-weight: bold;
     float:left;
     left: 2%;
-    margin-top: 0;
+    margin-top:0;
     margin-left: 3rem;
     
 }
 .slate_title, .teado_title{
     color: #0c0a2f;
-    font-family: 'nunitosans';
+    font-family: 'nunitosans', Arial, Helvetica, sans-serif;
     font-style: italic;
     font-size: 1.5rem;
     font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 0 3rem;
     margin-bottom: 0;
+    padding: 0 3rem;
+    text-transform: uppercase;
+}
+.additional_work{
+    color: #0c0a2f;
+    font-family: 'nunitosans', Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    padding: 0 3rem;
+    text-transform: uppercase;
+
 }
 p.copy{
     color: #94a2a6;
-    font-family: 'nunitosans';
+    font-family: 'nunitosans', Arial, Helvetica, sans-serif;
     font-style: italic;
     font-weight: normal;
     margin-top:0;
@@ -228,44 +230,118 @@ p.copy{
     padding:0 3rem;
 
 }
-.slate_pic, .teado_pic{
+.slate_pic, .teado_pic, .additional_pic{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.additional_pic{
+    margin-bottom: 1rem;
 }
 p.about{
     color: #0c0a2f;
     font-family: 'lato';
     font-size: 1rem;
+    line-height: 23px;
     margin-top: 0;
     padding: 0 3rem;
 }
+
+/*SLATE PAGE*/
+h1.sl_heading{
+    color: #0c0a2f;
+    font-family: 'nunitosans';
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 0 3rem;
+    text-transform: uppercase;
+}
+div.case_content{
+    color: #0c0a2f;
+    font-family: 'lato';
+    font-size: 1rem;
+    line-height: 23px;
+    margin: 0 auto;
+    max-width: 70%;
+    text-indent: 25px;
+    padding: 0 3rem;
+}
+.sl_pics{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:325px;
+}
+/*TEADO*/
+h1.teado_heading{
+    color: #0c0a2f;
+    font-family: 'nunitosans';
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 0 3rem;
+    text-transform: uppercase;
+}
+.teado_pics{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*ABOUT ME*/
+h1.about_heading{
+    color: #0c0a2f;
+    font-family: 'nunitosans';
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    padding: 0 1.5rem;
+}
+h2.about_heading2{
+    color: #0c0a2f;
+    font-family: 'nunitosans';
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    color: #0c0a2f;
+    max-width: 70%;
+
+    padding: 0 1.5rem;
+}
 .pic{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-p{
+p.about_me{
     color: #0c0a2f;
     font-family: 'lato', Arial, Helvetica, sans-serif;
     font-size: 1rem;
-    padding: 0 4rem;
-
+    line-height: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    text-indent: 25px;
+    padding: 0 1.5rem;
 }
+
+a.view:hover {color: white}
 
 a.resume:link {color: #eeede8;}
 a.resume:visited {color: #eeede8;}
 a.resume:hover {color: #e4ffa7;}
 
-a.portfolio:link {color: #eeede8;}
-a.portfolio:visited {color: #eeede8;}
-a.portfolio:hover {color: #e4ffa7;}
+a.work:link {color: #eeede8;}
+a.work:visited {color: #eeede8;}
+a.work:hover {color: #e4ffa7;}
 
 a.about_me:link {color: #eeede8;}
 a.about_me:visited {color: #eeede8;}
 a.about_me:hover {color: #e4ffa7;}
-
-a.additional_works:link {color: #eeede8;}
-a.additional_works:visited {color: #eeede8;}
-a.additional_works:hover {color: #e4ffa7;}
