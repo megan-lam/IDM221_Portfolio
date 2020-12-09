@@ -66,17 +66,16 @@ h1.intro_text{
     margin-left: auto;
     margin-right: auto;
     float: left;
-    padding: 4rem 2rem;
+    padding: 4rem 2rem 0;
 }
 .view{
     color: #ddff9c;
     font-family: 'nunitosans';
     font-style: italic;
     font-size: 1.3rem;
-    margin: 0 auto;
     float: left;
+    margin: 0 auto;
     padding-left: 2rem;
-    padding-bottom: 19rem;
 }
 h3{
     font-family: 'lato', Arial, Helvetica, sans-serif;
@@ -234,6 +233,10 @@ p.copy{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 300px;
+}
+.slate_pic{
+    padding-top: 2rem;
 }
 .additional_pic{
     margin-bottom: 1rem;
@@ -289,6 +292,7 @@ h1.teado_heading{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 300px;
 }
 
 /*ABOUT ME*/
